@@ -27,7 +27,7 @@ const services = [
       benefits: ["Alívio de dores crônicas", "Redução do estresse e ansiedade", "Melhora do sono", "Fortalecimento do sistema imunológico", "Equilíbrio hormonal"],
       indications: "Dores musculares, enxaquecas, insônia, ansiedade, problemas digestivos, dores articulares e recuperação pós-cirúrgica."
     },
-    icon: Zap,
+    icon: Sparkles,
     color: "healing"
   },
   {
@@ -42,7 +42,7 @@ const services = [
       benefits: ["Alívio de tensões musculares", "Melhora da flexibilidade", "Redução de inflamações", "Relaxamento profundo", "Melhora da postura"],
       indications: "Dores nas costas, pescoço, ombros, lesões esportivas, estresse muscular e reabilitação pós-trauma."
     },
-    icon: Heart,
+    icon: Sparkles,
     color: "nature"
   },
   {
@@ -72,7 +72,7 @@ const services = [
       benefits: ["Alívio rápido de tensões", "Relaxamento expresso", "Melhora da disposição", "Quebra na rotina", "Economia de tempo"],
       indications: "Rotina corrida, tensões do dia a dia, pausa no trabalho, dores pontuais e manutenção do bem-estar."
     },
-    icon: Clock,
+    icon: Sparkles,
     color: "success"
   },
   {
@@ -87,7 +87,7 @@ const services = [
       benefits: ["Redução de inchaços", "Combate à celulite", "Melhora da circulação", "Eliminação de toxinas", "Pernas mais leves"],
       indications: "Retenção de líquidos, celulite, inchaço nas pernas, pós-operatório, má circulação e fadiga."
     },
-    icon: Leaf,
+    icon: Sparkles,
     color: "nature"
   },
   {
@@ -117,7 +117,7 @@ const services = [
       benefits: ["Drenagem natural", "Relaxamento profundo", "Melhora da energia vital", "Pele revitalizada", "Equilíbrio energético"],
       indications: "Fadiga, estresse, falta de energia, necessidade de drenagem e busca por tratamento natural."
     },
-    icon: Leaf,
+    icon: Sparkles,
     color: "healing"
   },
   {
@@ -132,7 +132,7 @@ const services = [
       benefits: ["Relaxamento muscular profundo", "Alívio de dores", "Melhora da circulação", "Redução do estresse", "Sensação de aconchego"],
       indications: "Tensões musculares profundas, estresse, dores crônicas, friagem e necessidade de relaxamento intenso."
     },
-    icon: Heart,
+    icon: Sparkles,
     color: "success"
   }
 ];
@@ -154,7 +154,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Serviços
+            Fisioterapias
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Oferecemos uma ampla gama de tratamentos especializados para seu bem-estar e saúde
@@ -263,19 +263,7 @@ const Services = () => {
           })}
         </div>
         
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-semibold text-primary mb-6">Formas de Pagamento</h3>
-          <div className="flex justify-center items-center gap-8 flex-wrap">
-            <div className="flex items-center gap-2 bg-card p-4 rounded-lg shadow-soft">
-              <CreditCard className="h-6 w-6 text-success" />
-              <span className="font-medium">Cartão</span>
-            </div>
-            <div className="flex items-center gap-2 bg-card p-4 rounded-lg shadow-soft">
-              <Zap className="h-6 w-6 text-success" />
-              <span className="font-medium">PIX</span>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

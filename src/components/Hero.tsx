@@ -22,10 +22,7 @@ const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-4 py-16 md:py-20">
         <div className="max-w-4xl mx-auto text-center text-white">
-          <div className="mb-4 md:mb-6 fade-in-up animate-delay-100">
-            <p className="text-base md:text-lg opacity-90 mb-2">「健康は最大の財産」</p>
-            <p className="text-xs md:text-sm opacity-75 italic">Saúde é o maior tesouro.</p>
-          </div>
+
           
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight fade-in-scale animate-delay-200">
             Consultório Arakaki
@@ -35,7 +32,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg sm:text-xl md:text-2xl mb-6 md:mb-8 opacity-90 max-w-3xl mx-auto px-4 fade-in-up animate-delay-300">
-            Cuidando da sua saúde desde 2008 com excelência em fisioterapia e acupuntura
+            Cuidando da sua saúde desde 2009 com excelência em fisioterapia e acupuntura
           </p>
           
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center mb-8 md:mb-12 px-4 fade-in-up animate-delay-400">

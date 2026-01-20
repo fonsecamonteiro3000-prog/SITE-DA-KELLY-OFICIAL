@@ -10,14 +10,18 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2 space-y-4">
-            <h3 className="text-2xl font-bold">Consultório Arakaki</h3>
+            <h3 className="text-2xl font-bold">Consultório Arakaki Fisioterapia e Acupuntura</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               Cuidando da sua saúde desde 2008 com excelência em fisioterapia e acupuntura.
             </p>
-            <div className="text-lg">
-              <p className="font-medium">「健康は最大の財産」</p>
-              <p className="text-sm text-primary-foreground/80 italic">Saúde é o maior tesouro</p>
-            </div>
+                        <div className="flex items-start">
+                <MapPin className="h-4 w-4 mr-2 mt-1 text-success flex-shrink-0" />
+                <div>
+                  <p>Germano César 188</p>
+                  <p>Jardim das Carpas - Jundiaí/SP</p>
+                  <p>CEP: 13219-850</p>
+                </div>
+              </div>
           </div>
           
           <div className="space-y-4">
@@ -42,12 +46,6 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex items-start">
-                <MapPin className="h-4 w-4 mr-2 mt-1 text-success flex-shrink-0" />
-                <div>
-                  <p>Dr. Antenor Soares Gandra, 1398</p>
-                  <p>Colônia - Jundiaí/SP</p>
-                  <p>CEP: 13218-111</p>
-                </div>
               </div>
             </div>
           </div>
@@ -76,7 +74,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-primary-foreground/70">
-              © 2025 Consultório Arakaki. Todos os direitos reservados.
+              © 2026 Consultório Arakaki. Todos os direitos reservados.
             </p>
             <p className="text-sm text-primary-foreground/70 flex items-center mt-2 md:mt-0">
               Feito com <Heart className="h-4 w-4 mx-1 text-success" /> para sua saúde e bem-estar

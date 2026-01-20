@@ -12,7 +12,7 @@ const About = () => {
               Sobre
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Mais de 15 anos de experiência cuidando da sua saúde e bem-estar
+              Mais de 17 anos de experiência cuidando da sua saúde e bem-estar
             </p>
           </div>
           
@@ -88,22 +88,6 @@ const About = () => {
                 </CardContent>
               </Card>
               
-              <Card className="shadow-card border-0 bg-gradient-wellness">
-                <CardContent className="p-6 text-center">
-                  <div className="mb-4">
-                    <p className="text-2xl font-bold text-wellness-foreground mb-2">
-                      「健康は最大の財産」
-                    </p>
-                    <p className="text-wellness-foreground/90 italic">
-                      "Saúde é o maior tesouro"
-                    </p>
-                  </div>
-                  <p className="text-wellness-foreground/80 text-sm">
-                    Nossa filosofia oriental guia cada tratamento, 
-                    buscando sempre o equilíbrio entre corpo e mente.
-                  </p>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ const Contact = () => {
   };
 
   const openLocation = () => {
-    window.open("https://maps.google.com/?q=Dr.+Antenor+Soares+Gandra,+1398,+Colônia,+Jundiaí,+SP,+13218-111", "_blank");
+    window.open("https://maps.google.com/?q=R.+Germano+C%C3%A9sar,+188+-+Jardim+das+Carpas,+Jundia%C3%AD+-+SP,+13219-850", "_blank");
   };
 
   return (
@@ -61,6 +61,32 @@ const Contact = () => {
                 </CardContent>
               </Card>
               
+            </div>
+            
+            <div className="space-y-6">
+              <Card className="shadow-card border-0 hover:shadow-floating transition-shadow duration-300">
+                <CardHeader>
+                  <CardTitle className="flex items-center text-primary">
+                    <MapPin className="mr-3 h-6 w-6" />
+                    Localização
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-4">
+                    <div>
+                      <p className="font-semibold text-lg">Consultório Arakaki</p>
+                      <p className="text-muted-foreground">Germano César, 188</p>
+                      <p className="text-muted-foreground">Jardim das Carpas</p>
+                      <p className="text-muted-foreground">Jundiaí/SP - CEP: 13219-850</p>
+                    </div>
+                    <Button onClick={openLocation} className="w-full bg-healing hover:bg-healing/90">
+                      <MapPin className="mr-2 h-4 w-4" />
+                      Ver no Google Maps
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+              
               <Card className="shadow-card border-0 hover:shadow-floating transition-shadow duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center text-primary">
@@ -83,50 +109,6 @@ const Contact = () => {
                         ⚠️ Atendimento com hora marcada
                       </p>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
-            
-            <div className="space-y-6">
-              <Card className="shadow-card border-0 hover:shadow-floating transition-shadow duration-300">
-                <CardHeader>
-                  <CardTitle className="flex items-center text-primary">
-                    <MapPin className="mr-3 h-6 w-6" />
-                    Localização
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    <div>
-                      <p className="font-semibold text-lg">Consultório Arakaki</p>
-                      <p className="text-muted-foreground">Dr. Antenor Soares Gandra, 1398</p>
-                      <p className="text-muted-foreground">Bairro Colônia</p>
-                      <p className="text-muted-foreground">Jundiaí/SP - CEP: 13218-111</p>
-                    </div>
-                    <Button onClick={openLocation} className="w-full bg-healing hover:bg-healing/90">
-                      <MapPin className="mr-2 h-4 w-4" />
-                      Ver no Google Maps
-                    </Button>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-card border-0 overflow-hidden">
-                <CardContent className="p-0">
-                  <div className="h-64 bg-gradient-wellness flex items-center justify-center relative">
-                    <div className="text-center text-wellness-foreground">
-                      <MapPin className="h-12 w-12 mx-auto mb-4" />
-                      <p className="font-semibold">Localização no Mapa</p>
-                      <p className="text-sm opacity-90">Jundiaí/SP - Bairro Colônia</p>
-                    </div>
-                    <Button 
-                      onClick={openLocation}
-                      className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white/20 hover:bg-white/30 border border-white/30 text-white"
-                      size="sm"
-                    >
-                      Abrir Maps
-                    </Button>
                   </div>
                 </CardContent>
               </Card>
