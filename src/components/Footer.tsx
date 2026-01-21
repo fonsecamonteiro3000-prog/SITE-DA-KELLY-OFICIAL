@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="md:col-span-2 space-y-4">
             <h3 className="text-2xl font-bold">Consultório Arakaki Fisioterapia e Acupuntura</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Cuidando da sua saúde desde 2008 com excelência em fisioterapia e acupuntura.
+              Cuidando da sua saúde desde 2009 com excelência em fisioterapia e acupuntura.
             </p>
                         <div className="flex items-start">
                 <MapPin className="h-4 w-4 mr-2 mt-1 text-success flex-shrink-0" />

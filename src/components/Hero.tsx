@@ -54,20 +54,14 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 max-w-3xl mx-auto px-4 fade-in-up animate-delay-500">
-            <div className="bg-white/60 backdrop-blur-sm rounded-lg p-3 md:p-4 fade-in-up animate-delay-600">
+          <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center px-4 fade-in-up animate-delay-500">
+            <div className="bg-white/60 backdrop-blur-sm rounded-lg p-3 md:p-4 min-w-[160px] fade-in-up animate-delay-600">
               <Clock className="h-5 w-5 md:h-6 md:w-6 mx-auto mb-2" />
               <p className="font-semibold text-sm md:text-base">Horário</p>
               <p className="text-xs md:text-sm opacity-90">Seg-Sex: 7h-18h</p>
               <p className="text-xs md:text-sm opacity-90">Sáb: 7h-12h</p>
             </div>
-            <div className="bg-white/60 backdrop-blur-sm rounded-lg p-3 md:p-4">
-              <MapPin className="h-5 w-5 md:h-6 md:w-6 mx-auto mb-2" />
-              <p className="font-semibold text-sm md:text-base">Localização</p>
-              <p className="text-xs md:text-sm opacity-90">Jundiaí/SP</p>
-              <p className="text-xs md:text-sm opacity-90">Jardim das Carpas</p>
-            </div>
-            <div className="bg-white/60 backdrop-blur-sm rounded-lg p-3 md:p-4">
+            <div className="bg-white/60 backdrop-blur-sm rounded-lg p-3 md:p-4 min-w-[160px]">
               <Phone className="h-5 w-5 md:h-6 md:w-6 mx-auto mb-2" />
               <p className="font-semibold text-sm md:text-base">WhatsApp</p>
               <p className="text-xs md:text-sm opacity-90">(11) 98765-7179</p>
