@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const WhatsAppIcon = () => (
   <svg 
-    className="h-8 w-8 md:h-10 md:w-10" 
+    className="h-10 w-10 md:h-12 md:w-12" 
     viewBox="0 0 24 24" 
     fill="currentColor"
   >
