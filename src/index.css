@@ -9,52 +9,52 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 155 20% 15%;
+    --foreground: 350 20% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 155 20% 15%;
+    --card-foreground: 350 20% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 155 20% 15%;
+    --popover-foreground: 350 20% 20%;
 
-    --primary: 140 60% 25%;
+    --primary: 350 45% 45%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 120 40% 95%;
-    --secondary-foreground: 155 20% 15%;
+    --secondary: 350 30% 95%;
+    --secondary-foreground: 350 25% 25%;
 
-    --muted: 120 30% 96%;
-    --muted-foreground: 155 15% 45%;
+    --muted: 350 20% 96%;
+    --muted-foreground: 350 15% 45%;
 
-    --accent: 135 50% 85%;
-    --accent-foreground: 155 25% 20%;
+    --accent: 350 35% 85%;
+    --accent-foreground: 350 30% 25%;
 
-    --success: 140 50% 40%;
+    --success: 350 50% 50%;
     --success-foreground: 0 0% 98%;
 
-    --healing: 130 45% 30%;
+    --healing: 350 40% 40%;
     --healing-foreground: 0 0% 98%;
 
-    --nature: 125 35% 50%;
+    --nature: 350 35% 55%;
     --nature-foreground: 0 0% 98%;
 
-    --wellness: 115 40% 70%;
-    --wellness-foreground: 155 25% 20%;
+    --wellness: 350 30% 75%;
+    --wellness-foreground: 350 30% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 120 20% 90%;
-    --input: 120 20% 90%;
-    --ring: 140 60% 25%;
+    --border: 350 20% 90%;
+    --input: 350 20% 90%;
+    --ring: 350 45% 45%;
 
-    --gradient-hero: linear-gradient(135deg, hsl(140, 60%, 25%), hsl(130, 45%, 30%));
-    --gradient-section: linear-gradient(180deg, hsl(120, 40%, 98%), hsl(0, 0%, 100%));
-    --gradient-wellness: linear-gradient(45deg, hsl(135, 50%, 85%), hsl(115, 40%, 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(350, 45%, 45%), hsl(350, 40%, 40%));
+    --gradient-section: linear-gradient(180deg, hsl(350, 30%, 98%), hsl(0, 0%, 100%));
+    --gradient-wellness: linear-gradient(45deg, hsl(350, 35%, 85%), hsl(350, 30%, 75%));
     
-    --shadow-soft: 0 4px 20px hsla(140, 60%, 25%, 0.1);
-    --shadow-card: 0 8px 30px hsla(140, 60%, 25%, 0.12);
-    --shadow-floating: 0 12px 40px hsla(140, 60%, 25%, 0.15);
+    --shadow-soft: 0 4px 20px hsla(350, 45%, 45%, 0.1);
+    --shadow-card: 0 8px 30px hsla(350, 45%, 45%, 0.12);
+    --shadow-floating: 0 12px 40px hsla(350, 45%, 45%, 0.15);
 
     --radius: 0.5rem;
 

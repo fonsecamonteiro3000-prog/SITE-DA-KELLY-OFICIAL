@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock } from "lucide-react";
-import heroImage from "@/assets/hero-physiotherapy.jpg";
+import heroImage from "@/assets/hero.png";
 
 const Hero = () => {
   const openWhatsApp = () => {
