@@ -39,7 +39,7 @@ const About = () => {
                   </div>
                   
                   <p className="text-muted-foreground leading-relaxed">
-                    A Arakaki Terapia Oriental é conduzida com dedicação por Kelly Arakaki (CREFITO-3/132875-F), fisioterapeuta com 12 anos de experiência na área da terapia oriental.
+                    A Arakaki Terapia Oriental é conduzida com dedicação por Kelly Arakaki (CREFITO-3/132875-F).
                   </p>
                   <p className="text-muted-foreground leading-relaxed mt-4">
                     Com seu próprio espaço, Kelly aplica e compartilha seus conhecimentos, sempre com o propósito de promover equilíbrio, saúde e bem-estar às pessoas.
