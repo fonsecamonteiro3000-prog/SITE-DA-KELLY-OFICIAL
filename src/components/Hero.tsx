@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight fade-in-scale animate-delay-200">
             Consultório Arakaki
             <span className="block text-wellness-foreground">
-              Fisioterapia & Bem-estar
+              Fisioterapia e Acupuntura.
             </span>
           </h1>
           

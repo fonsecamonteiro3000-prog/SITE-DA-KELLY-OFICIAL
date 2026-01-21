@@ -34,7 +34,7 @@ const About = () => {
                   <div className="text-center">
                     <Badge variant="secondary" className="bg-healing/10 text-healing border-healing/20 text-base px-4 py-2">
                       <Calendar className="w-4 h-4 mr-2" />
-                      Desde 2008
+                      Desde 2009
                     </Badge>
                   </div>
                   

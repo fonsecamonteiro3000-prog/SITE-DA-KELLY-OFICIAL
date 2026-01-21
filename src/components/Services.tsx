@@ -156,9 +156,6 @@ const Services = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             Fisioterapias
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Oferecemos uma ampla gama de tratamentos especializados para seu bem-estar e saúde
-          </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

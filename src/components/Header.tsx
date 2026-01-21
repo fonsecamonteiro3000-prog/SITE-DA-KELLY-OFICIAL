@@ -56,7 +56,7 @@ const Header = () => {
               onClick={() => scrollToSection('servicos')}
               className="text-lg font-medium text-foreground hover:text-primary transition-all duration-300 relative group py-2"
             >
-              Serviços
+              Terapias
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-primary to-healing transition-all duration-300 group-hover:w-full"></span>
             </button>
             <button 
