@@ -16,8 +16,8 @@ const About = () => {
             </p>
           </div>
           
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div className="space-y-6">
+          <div className="flex justify-center">
+            <div className="space-y-6 max-w-xl w-full">
               <Card className="shadow-card border-0">
                 <CardHeader className="text-center pb-6">
                   <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-gradient-wellness flex items-center justify-center">
@@ -46,48 +46,6 @@ const About = () => {
                   </p>
                 </CardContent>
               </Card>
-            </div>
-            
-            <div className="space-y-6">
-              <h3 className="text-2xl font-semibold text-primary mb-6 flex items-center">
-                <GraduationCap className="mr-3 h-7 w-7" />
-                Formação Acadêmica
-              </h3>
-              
-              <Card className="shadow-soft border-l-4 border-l-healing">
-                <CardHeader>
-                  <CardTitle className="text-xl text-healing flex items-center">
-                    <Award className="mr-2 h-5 w-5" />
-                    CEUNSP ITU/SP (2008)
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground font-medium mb-2">
-                    Graduação em Fisioterapia
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    <strong>TCC:</strong> "Intervenção Fisioterápica em Mulheres Mastectomizadas"
-                  </p>
-                </CardContent>
-              </Card>
-              
-              <Card className="shadow-soft border-l-4 border-l-nature">
-                <CardHeader>
-                  <CardTitle className="text-xl text-nature flex items-center">
-                    <Award className="mr-2 h-5 w-5" />
-                    EBRAMEC (2013)
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground font-medium mb-2">
-                    Escola Brasileira de Medicina Chinesa
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    <strong>TCC:</strong> "A Intervenção da Acupuntura no Tratamento da Dismenorreia"
-                  </p>
-                </CardContent>
-              </Card>
-              
             </div>
           </div>
         </div>

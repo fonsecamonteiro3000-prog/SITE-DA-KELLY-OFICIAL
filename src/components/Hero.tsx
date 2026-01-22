@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   const openLocation = () => {
-    window.open("https://maps.google.com/?q=Dr.+Antenor+Soares+Gandra,+1398,+Colônia,+Jundiaí,+SP,+13218-111", "_blank");
+    window.open("https://maps.google.com/?q=Germano+C%C3%A9sar+188,+Jardim+das+Carpas,+Jundia%C3%AD,+SP,+13219-850", "_blank");
   };
 
   return (
